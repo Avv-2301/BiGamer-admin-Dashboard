@@ -1,8 +1,12 @@
 import React from 'react'
+import Card from '../core/Card'
 
 const AdminDashboard = () => {
   return (
-    <div className='text-black font-bold'>AdminDashboard</div>
+      <div className='flex flex-column p-4'>
+        <Card/>
+        <span className='text-black font-bold'>ADMIN</span>
+    </div>
   )
 }
 
