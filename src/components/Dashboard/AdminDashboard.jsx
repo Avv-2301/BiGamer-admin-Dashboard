@@ -6,7 +6,7 @@ import { MdOutlineEditCalendar } from "react-icons/md";
 const AdminDashboard = () => {
   return (
     <div>
-      <div className='pl-5 flex flex-col mb-5 mt-3'>
+      <div className='pl-5 flex flex-col mb-5 mt-1'>
         <div className='text-xl text-[3.5rem] text-black font-bold mb-5'>
           Admin
         </div>
