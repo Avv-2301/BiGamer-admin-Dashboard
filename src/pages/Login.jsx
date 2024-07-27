@@ -22,8 +22,8 @@ const Login = () => {
   }
 
   return (
-    <div className='w-full flex flex-col justify-between items-center p-10 overflow-hidden'>
-  <div className='lg:w-1/3 shadow-lg border rounded-lg h-[80vh] p-4 flex flex-col items-left md:w-full'>
+    <div className='w-full flex flex-col justify-between items-center p-10 overflow-auto'>
+  <div className='lg:w-1/3 shadow-lg border rounded-lg lg:h-[80vh] p-4 flex flex-col items-left md:w-full'>
     <div className='text-[1.5rem] font-semibold font-mono pb-4'>
       <span>Login to your Account</span>
     </div>
