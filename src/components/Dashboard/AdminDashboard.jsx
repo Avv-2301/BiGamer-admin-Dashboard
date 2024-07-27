@@ -7,7 +7,7 @@ const AdminDashboard = () => {
   return (
     <div>
       <div className='pl-5 flex flex-col mb-5 mt-1'>
-        <div className='text-xl text-[3.5rem] text-black font-bold mb-5'>
+        <div className='text-[3rem] text-black font-bold mb-5'>
           Admin
         </div>
         <div className='text-sm font-mono'>

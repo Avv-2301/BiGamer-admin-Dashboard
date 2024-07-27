@@ -7,9 +7,9 @@ const Card = ({title, data, icon}) => {
         <div className='aspect-square w-[30px] rounded-full object-cover mt-3'>
           {icon}
         </div>
-          <div className='font-bold pl-6 flex-row text-sm'>
+          <div className='font-bold pl-6 flex-row text-sm text-[#464255]'>
             {title}
-            <div className='text-sm mt-1.5'>
+            <div className='text-sm mt-1.5 text-[#464255]'>
               {data}
             </div>
           </div>

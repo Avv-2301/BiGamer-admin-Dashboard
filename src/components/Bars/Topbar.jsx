@@ -13,9 +13,9 @@ const Topbar = () => {
         className="w-full max-w-xl p-2 rounded-full bg-white outline-none pl-6"
       />
       <div className="flex space-x-7 ml-[90px]">
-        <FaRegBell size={45} style={{ fill: 'teal' }} className="shadow hover:shadow-lg rounded-lg border-0 p-3 bg-[#cffafe]"/>   
-        <FaRegMessage size={45} style={{ fill: 'teal' }} className="shadow hover:shadow-lg rounded-lg border-0 p-3 bg-[#cffafe]"/>
-        <IoSettingsSharp size={45} style={{ fill: 'red' }} className="shadow hover:shadow-lg rounded-lg border-0 p-3 bg-[#fee2e2]"/>
+        <FaRegBell size={45} style={{ fill: 'teal' }} className="shadow hover:shadow-lg rounded-2xl border-0 p-3 bg-[#cffafe]"/>   
+        <FaRegMessage size={45} style={{ fill: 'teal' }} className="shadow hover:shadow-lg rounded-2xl border-0 p-3 bg-[#cffafe]"/>
+        <IoSettingsSharp size={45} style={{ fill: 'red' }} className="shadow hover:shadow-lg rounded-2xl border-0 p-3 bg-[#fee2e2]"/>
       </div>
       <hr className="lg:h-[50px] border-x-2 bg-[#6b7280]ml-[80px]"></hr>
       <div className="mr-[100px] flex space-x-6">

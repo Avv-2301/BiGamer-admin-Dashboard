@@ -7,14 +7,14 @@ const Sidebar = () => {
   return (
     <section className="flex gap-6">
       <div
-        className={`bg-[#0e0e0e] min-h-screen w-72 duration-500 text-[#f3f4f6] px-6 py-6`}
+        className={`bg-[#FFFFFF] min-h-screen w-72 duration-500 text-[#0E0E0E] px-6 py-6`}
       >
         <div>
           {menus?.map((menu, index) => (
             <Link
               to={menu?.link}
               key={index}
-              className={`group flex items-center text-sm gap-3.5 font-medium p-2 hover:bg-[#1f2937] rounded-md`}
+              className={`group flex items-center text-sm gap-3.5 font-medium p-2 hover:bg-[#dcfce7] hover:text-[#22c55e] rounded-md`}
             >
               <div>{menu?.icon}</div>
               <h2
