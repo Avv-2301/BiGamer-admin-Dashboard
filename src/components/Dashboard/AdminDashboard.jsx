@@ -2,16 +2,15 @@ import React from 'react'
 import Card from '../core/Card'
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlineEditCalendar } from "react-icons/md";
-import Topbar from '../Bars/Topbar';
 
 const AdminDashboard = () => {
   return (
     <div>
       <div className='pl-5 flex flex-col mb-5 mt-3'>
-        <div className='text-xl text-4xl text-black font-bold mb-3'>
+        <div className='text-xl text-[3.5rem] text-black font-bold mb-5'>
           Admin
         </div>
-        <div className='text-sm '>
+        <div className='text-sm font-mono'>
           Hi, Avv. Welcome Back To BiGamer Admin
         </div>
       </div>
