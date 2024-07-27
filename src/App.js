@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import AddGame from "./pages/AddGame";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import Profile from "./pages/Profile";
+import Category from './pages/Category';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route path="/addproduct" element={<AddGame/>}/>
             <Route path="/admindashboard" element={<AdminDashboard/>}/>
             <Route path="/profile" element={<Profile/>}/>
+            <Route path="/addcategory" element={<Category/>}/>
           </Route>
           
 
