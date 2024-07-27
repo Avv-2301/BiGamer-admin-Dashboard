@@ -5,7 +5,7 @@ import Topbar from '../components/Bars/Topbar';
 
 const Dashboard = () => {
   return (
-    <div className="relative flex min-h-[calc(100vh-3.5rem)]">
+    <div className="relative flex min-h-[calc(100vh-3.5rem)] bg-[#e5e7eb]">
       <Sidebar />
       <div className="h-[calc(100vh-3.5rem)] flex-1 overflow-auto">
         <Topbar/>

@@ -21,7 +21,7 @@ const AdminDashboard = () => {
         icon={<FaRegUser size={30}/>}
         />
         <Card
-        title={"Total users"}
+        title={"Today Registered"}
         data={100}
         icon={<MdOutlineEditCalendar size={30}/>}
         />
