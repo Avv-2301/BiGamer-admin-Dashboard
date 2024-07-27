@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../core/Card'
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlineEditCalendar } from "react-icons/md";
+import Barchart from '../Charts/Barchart';
 
 const AdminDashboard = () => {
   return (
@@ -36,6 +37,7 @@ const AdminDashboard = () => {
         icon={<FaRegUser size={30}/>}
         />
     </div>
+    <Barchart/>
     </div>
       
   )

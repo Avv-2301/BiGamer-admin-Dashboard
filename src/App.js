@@ -3,6 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import AddGame from "./pages/AddGame";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route element={<Dashboard/>}>
             <Route path="/addproduct" element={<AddGame/>}/>
             <Route path="/admindashboard" element={<AdminDashboard/>}/>
+            <Route path="/profile" element={<Profile/>}/>
           </Route>
           
 
