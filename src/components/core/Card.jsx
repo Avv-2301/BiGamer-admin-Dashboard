@@ -2,16 +2,18 @@ import React from 'react';
 
 const Card = ({title, data, icon}) => {
   return (
-    <div className='h-[7em] border-[2px] w-[14em] p-2'>
-        <div className='flex flex-row p-2'>
-            <div className='font-bold text-lg'>
-                {title}aa
-            </div>
-            <div className='font-bold text-lg'>
-                55  
-            </div>
+    <div className='h-[7em] w-[14em] p-2 shadow-lg shadow-[2px_2px_0px_0px_rgba(255,255,255,0.18)] rounded-lg'>
+      <div className='flex p-7'>
+        <div className='aspect-square w-[30px] rounded-full object-cover mt-3'>
+          {icon}
         </div>
-        
+          <div className='font-bold pl-6 flex-row text-lg'>
+            {title}
+            <div className='text-sm mt-1.5'>
+              {data}
+            </div>
+          </div>
+      </div>
     </div>
   )
 }
