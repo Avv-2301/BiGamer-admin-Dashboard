@@ -9,7 +9,7 @@ const ForgotPassword = () => {
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen bg-[#f3f4f6]">
       <div className="max-w-[500px] p-4 lg:p-8">
-        <h1 className="text-[1.5rem] leading-[2.3rem] font-semibold text-black">
+        <h1 className="text-[1.5rem] leading-[2.3rem] font-semibold font-mono text-black">
           {!emailSent ? "Reset Your Password" : "Check email"}
         </h1>
         <p>
@@ -42,7 +42,7 @@ const ForgotPassword = () => {
           </button>
         </form>
         <div className="mt-6 flex items-center justify-between">
-          <Link to={"/login"}>
+          <Link to={"/"}>
             <p className="flex items-center gap-x-2 text-black">
               <BiArrowBack /> Back To Login
             </p>
