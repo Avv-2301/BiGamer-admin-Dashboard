@@ -5,6 +5,7 @@ import AddGame from "./pages/AddGame";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import Profile from "./pages/Profile";
 import Category from './pages/Category';
+import './App.css'
 
 function App() {
   return (

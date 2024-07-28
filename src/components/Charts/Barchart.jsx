@@ -19,7 +19,7 @@ const options = {
 
 const Barchart = () => {
   return (
-        <div className='max-w-lg p-6 border rounded-lg shadow-lg mt-6 ml-4 lg:h-[300px] hover:shadow-xl'>
+        <div className='max-w-lg p-6 border rounded-lg shadow-lg mt-6 ml-4 lg:h-[300px] hover:shadow-xl bg-[#e2e8f0]'>
             <div>
                 <Bar
                 data={chartData}

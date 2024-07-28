@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <section className="flex gap-6">
       <div
-        className={`bg-[#FFFFFF] min-h-screen w-72 duration-500 text-[#0E0E0E] px-6 py-6`}
+        className={`bg-[#64748b] min-h-screen w-72 duration-500 text-[#0E0E0E] px-6 py-6`}
       >
         <div>
           {menus?.map((menu, index) => (
