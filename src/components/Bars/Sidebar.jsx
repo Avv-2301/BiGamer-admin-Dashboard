@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { menus } from "../../data/routes";
 
 const Sidebar = () => {
-
   return (
     <section className="flex gap-6">
       <div
@@ -17,11 +16,7 @@ const Sidebar = () => {
               className={`group flex items-center text-sm gap-3.5 font-medium p-2 hover:bg-[#dcfce7] hover:text-[#22c55e] rounded-md`}
             >
               <div>{menu?.icon}</div>
-              <h2
-                className={`whitespace-pre duration-500`}
-              >
-                {menu?.name}
-              </h2>
+              <h2 className={`whitespace-pre duration-500`}>{menu?.name}</h2>
               <h2
                 className={` absolute left-48 bg-white font-semibold whitespace-pre text-[#111827] rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden`}
               >
