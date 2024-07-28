@@ -6,10 +6,12 @@ import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import Profile from "./pages/Profile";
 import Category from "./pages/Category";
 import "./App.css";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
     <div>
+      
       <Routes>
         <Route element={<Dashboard />}>
           <Route path="/addproduct" element={<AddGame />} />
@@ -18,6 +20,7 @@ function App() {
           <Route path="/addcategory" element={<Category />} />
         </Route>
 
+        <Route path="/forgot-password" element={<ForgotPassword/>}/>
         <Route path="/" element={<Login />}></Route>
       </Routes>
     </div>
