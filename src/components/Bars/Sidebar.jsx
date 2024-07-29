@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { VscSignOut } from "react-icons/vsc";
 import { menus } from "../../data/routes";
+import ConfirmationModal from "../core/ConfirmationModal";
 
 const Sidebar = () => {
 
@@ -47,6 +48,7 @@ const Sidebar = () => {
             </button>
         </div>
       </div>
+      {confirmationModal && <ConfirmationModal modalData={confirmationModal} />}
     </section>
   );
 };
