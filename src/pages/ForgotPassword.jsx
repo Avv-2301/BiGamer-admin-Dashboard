@@ -49,7 +49,7 @@ const ForgotPassword = () => {
           </Link>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 
